@@ -6,4 +6,4 @@ all: hacking_script
 hacking_script: $(HACKING_SCRIPTS_DIR)/main.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $^
 clean:
-	rm -f *.tar
+	rm -f hacking_script
